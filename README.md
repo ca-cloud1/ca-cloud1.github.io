@@ -41,6 +41,11 @@ Build node packages in the theme
 cd themes/hugo-theme-luna
 npm install --production
 ```
+Go back to the project folder
+
+```bash
+cd ../..
+```
 
 Run the website
 
