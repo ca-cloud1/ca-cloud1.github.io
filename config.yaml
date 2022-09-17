@@ -167,19 +167,19 @@ params:
     file: "README.md" # assets/README.md
 
   # Comment system
-  comments:
-    enabled: false
-    provider: "giscus" # custom | giscus
-    giscus: &giscus
-      repo: "Ice-Hazymoon/hugo-theme-luna"
-      repoID: "R_kgDOHQOwYw"
-      category: "Comments"
-      categoryID: "DIC_kwDOHQOwY84CP0Sy"
-      mapping: "title"
-      reactionsEnabled: 1
-      emitMetadata: 0
-      lazy: false
-      lang: "en"
+  # comments:
+  #   enabled: false
+  #   provider: "giscus" # custom | giscus
+  #   giscus: &giscus
+  #     repo: "Ice-Hazymoon/hugo-theme-luna"
+  #     repoID: "R_kgDOHQOwYw"
+  #     category: "Comments"
+  #     categoryID: "DIC_kwDOHQOwY84CP0Sy"
+  #     mapping: "title"
+  #     reactionsEnabled: 1
+  #     emitMetadata: 0
+  #     lazy: false
+  #     lang: "en"
 
   # RSS configuration
   rss:
@@ -196,14 +196,6 @@ params:
 
   # Set website to black and white, usually for mourning events
   blackAndWhite: false
-
-  # Output a nice console log
-  console:
-    enabled: true
-    leftColor: "#dd6065"
-    leftText: "Hugo Theme Luna"
-    rightColor: "#feb462"
-    rightText: "Powered by Hugo ❤ Luna"
 
   # Title counter
   headlineCounter: true
@@ -223,7 +215,6 @@ params:
   # Show site runtime
   runTime:
     enabled: true
-    # 网站创建时间
     # Site creation time
     creatTime: 2022/09/15
 
@@ -239,11 +230,9 @@ params:
   # Automatic switching of night mode (using device settings)
   autoDarkMode: false
 
-  # 文章分享功能
   share:
     twitter: true
     facebook: true
-    weibo: true
     copyLinkText: true
     qrcode: true
 
@@ -263,7 +252,7 @@ params:
   # github page
   github:
     id: "ca-cloud1" # github user id
-    minStars: 5 # min stars
+    minStars: 0 # min stars
 
   # tweet page
   twitter:
