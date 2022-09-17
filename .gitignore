@@ -1,6 +1,9 @@
+# Local
+*.DS_Store
+# node
+node_modules/
 ### Hugo ###
 # Generated files by hugo
-node_modules/
 /public/
 /resources/_gen/
 /assets/jsconfig.json
