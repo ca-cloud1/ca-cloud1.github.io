@@ -49,7 +49,7 @@ jobs:
         with:
           personal_token: ${{ secrets.GITHUB_TOKEN }}
           external_repository: ca-cloud1/ca-cloud1.github.io
-          publish_branch: main
+          publish_branch: dev
           publish_dir: ./public
           force_orphan: true
           user_name: ca-cloud1
