@@ -1,7 +1,7 @@
 ---
 title: "Intro to Python"
 date: 2022-09-15T21:44:59-07:00
-draft: true
+draft: false
 tags:
   - code
   - python
